@@ -1,0 +1,7 @@
+# virtual environment
+.venv 
+# variables
+.env
+# vscode
+.vscode
+#__pycache

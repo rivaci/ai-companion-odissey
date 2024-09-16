@@ -1,0 +1,14 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "How to quickly create a chatbot with UV, Chainlit and Claude 3.5 Sonnet in AWS Bedrock"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=1.1.404",
+    "graphviz>=0.20.3",
+    "langchain-aws>=0.1.18",
+    "langgraph>=0.2.19",
+    "pip>=24.2",
+    "python-dotenv>=1.0.1",
+]
