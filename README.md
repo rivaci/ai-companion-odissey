@@ -1,7 +1,7 @@
 # The Odyssey of Your AI Companion
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d0a225e2-2a6a-45ba-9d3b-1caa1d1fa2a4">
+  <img src="images/ai-companion-odissey.png">
   <br>
   <i>Created with MidJourney</i>
 </p>
