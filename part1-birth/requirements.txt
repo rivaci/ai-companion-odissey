@@ -1,0 +1,4 @@
+chainlit==1.1.404
+langchain-aws==0.1.18
+langgraph==0.2.19
+python-dotenv==1.0.1
