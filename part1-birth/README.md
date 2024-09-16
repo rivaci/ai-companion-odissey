@@ -30,7 +30,7 @@ Part 1:The Birth of a New Era with AWS Bedrock and Chainlit (coming soon)
 2. Navigate to the project directory ai-companion-odissey/part1-birth
 3. Install dependencies
 
-    > [!NOTE]
+    > [NOTE]
     > It's always best practice and safe to create and activate a new python environment for every project.
     > In our case we use **python 3.12**.
 
