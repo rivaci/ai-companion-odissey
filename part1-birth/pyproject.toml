@@ -5,8 +5,8 @@ description = "The Odyssey of Your AI Companion – Part 1: The Birth of a New E
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "chainlit>=1.1.404",
-    "langchain-aws>=0.1.18",
-    "langgraph>=0.2.19",
+    "chainlit>=1.2.0",
+    "langchain-aws>=0.2.0",
+    "langgraph>=0.2.22",
     "python-dotenv>=1.0.1",
 ]
