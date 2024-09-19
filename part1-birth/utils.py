@@ -28,5 +28,5 @@ def save_graph_to_file(graph, file_path, format='png'):
 def show_graph(graph):
     try:
         display(Image(graph.get_graph().draw_mermaid_png()))
-    except Exception:
+    except Exception as e:
         print(f"Error displaying graph: {e}")
