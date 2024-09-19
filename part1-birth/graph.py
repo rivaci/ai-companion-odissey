@@ -1,12 +1,8 @@
 import argparse
 from langgraph.graph import StateGraph, MessagesState
 from langchain_aws import ChatBedrockConverse
-from dotenv import load_dotenv
 from langgraph.checkpoint.memory import MemorySaver
 from utils import save_graph_to_file
-
-# Load the environment variables for the AWS access keys
-load_dotenv()
 
 # Create the memory checkpointer
 memory = MemorySaver()
@@ -15,7 +11,9 @@ memory = MemorySaver()
 model = ChatBedrockConverse(
     model="anthropic.claude-3-5-sonnet-20240620-v1:0",
     temperature=0,
-    max_tokens=None
+    max_tokens=None,
+    region_name="us-east-1",
+    credentials_profile_name="chatbot"
 )
 
 # Define the function that generates the assistant response

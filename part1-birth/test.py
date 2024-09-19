@@ -1,12 +1,11 @@
 from langchain_aws import ChatBedrockConverse
-from dotenv import load_dotenv
-
-load_dotenv()
 
 model = ChatBedrockConverse(
-    model="anthropic.claude-3-5-sonnet-20240620-v1:0",
+    model="anthropic.claude-3-sonnet-20240229-v1:0",
     temperature=0,
-    max_tokens=None
+    max_tokens=None,
+    region_name="us-east-1",
+    credentials_profile_name="chatbot"
 )
 
 messages = [
