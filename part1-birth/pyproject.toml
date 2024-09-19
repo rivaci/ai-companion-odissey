@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chainlit>=1.2.0",
+    "ipython>=8.27.0",
     "langchain-aws>=0.2.0",
-    "langgraph>=0.2.22"
+    "langgraph>=0.2.22",
 ]
