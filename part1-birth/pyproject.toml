@@ -3,7 +3,7 @@ name = "part1-birth"
 version = "1.0.1"
 description = "The Odyssey of Your AI Companion – Part 1: The Birth of a New Era with AWS Bedrock and Chainlit"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = "3.12.3"
 dependencies = [
     "chainlit>=1.2.0",
     "ipython>=8.27.0",
