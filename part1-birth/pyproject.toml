@@ -1,12 +1,12 @@
 [project]
-name = "test"
-version = "0.1.0"
+name = "part1-birth"
+version = "1.0.1"
 description = "The Odyssey of Your AI Companion – Part 1: The Birth of a New Era with AWS Bedrock and Chainlit"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "chainlit>=1.2.0",
     "ipython>=8.27.0",
-    "langchain-aws>=0.2.0",
-    "langgraph>=0.2.22",
+    "langchain-aws>=0.2.1",
+    "langgraph>=0.2.28",
 ]
