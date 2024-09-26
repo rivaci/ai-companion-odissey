@@ -1,4 +1,4 @@
 chainlit==1.2.0,
 ipython==8.27.0,
-langchain-aws==0.2.0
-langgraph==0.2.22
+langchain-aws==0.2.1
+langgraph==0.2.28
