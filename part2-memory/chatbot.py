@@ -3,7 +3,6 @@ from graph import flow  # Import the compiled LangGraph workflow
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.messages.ai import AIMessageChunk
 
-# Add authentication
 @cl.password_auth_callback
 def auth_callback(username: str, password: str):
     # Fetch the user matching username from your database
@@ -14,7 +13,7 @@ def auth_callback(username: str, password: str):
         )
     else:
         return None
-    
+
 # Define the starters
 @cl.set_starters
 def set_starters():
@@ -47,11 +46,12 @@ async def main(message: cl.Message):
     msg = cl.Message(content="")
     await msg.send()
 
+    # Stream the response from the LangGraph flow to the user
     async for event in flow.astream_events({"messages" : [input_message]}, config, version="v2"):
         kind = event["event"]
         if kind == "on_chat_model_stream":
             chunk = event["data"]["chunk"]
-            if(isinstance(chunk, AIMessageChunk) and len(chunk.content) > 0 and chunk.content[-1].get("type", "") == "text"):
+            if(len(chunk.content) > 0 and chunk.content[-1].get("type", "") == "text"):
                 token = chunk.content[-1].get("text", "")
                 await msg.stream_token(token)
 
