@@ -31,9 +31,7 @@ Let's dive in and continue shaping our AI companion into a smarter, more adaptab
 
 ## Full Tutorial
 
-Follow along on Medium as we take you through the step-by-step process of building your AI companion:
-
-[Part 1:The Birth of a New Era with AWS Bedrock and Chainlit](https://generativeai.pub/the-odyssey-of-your-ai-companion-part-1-the-birth-of-a-new-era-with-aws-bedrock-and-chainlit-4cbb1d181b59)
+Follow along on Medium (story coming soon):
 
 ## Installation guide
 
