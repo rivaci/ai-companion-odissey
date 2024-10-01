@@ -1,16 +1,13 @@
-from langchain_aws import ChatBedrockConverse
+import traceback
 
-model = ChatBedrockConverse(
-    model="anthropic.claude-3-sonnet-20240229-v1:0",
-    temperature=0,
-    max_tokens=None,
-    region_name="us-east-1",
-    credentials_profile_name="chatbot"
-)
+def generate_error():
+    try:
+        raise ValueError("Ceci est une fausse erreur pour voir la stacktrace.")
+    except Exception as e:
+        print("Une erreur s'est produite :")
+        traceback.print_exc()  # Affiche la stacktrace sans interrompre le programme
 
-messages = [
-    ("system", "You are a helpful assistant."),
-    ("human", "Who is the president of France?"),
-]
-message = model.invoke(messages).content
-print(message)
+generate_error()
+
+# Le reste du code continue à s'exécuter normalement
+print("Le programme continue après l'erreur.")

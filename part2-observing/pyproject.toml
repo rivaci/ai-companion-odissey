@@ -1,0 +1,12 @@
+[project]
+name = "part2-observing"
+version = "0.1.0"
+description = "The Odyssey of Your AI Companion - Part 2: Streaming and Observing with AWS Bedrock, Langsmith and Chainlit"
+readme = "README.md"
+requires-python = "==3.12.3"
+dependencies = [
+    "chainlit==1.2.0",
+    "ipython==8.27.0",
+    "langchain-aws==0.2.1",
+    "langgraph==0.2.31",
+]

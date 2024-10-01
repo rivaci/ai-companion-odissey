@@ -1,0 +1,16 @@
+[project]
+name = "part3-memory"
+version = "0.1.0"
+description = "The Odyssey of Your AI Companion – Part 3: Strengthening Memory with LangGraph, Chainlit, Sqlalchemy and AWS Aurora"
+readme = "README.md"
+requires-python = "==3.12.3"
+dependencies = [
+    "aiohttp==3.10.8",
+    "asyncpg==0.29.0",
+    "chainlit==1.2.0",
+    "ipython==8.27.0",
+    "langchain-aws==0.2.1",
+    "langgraph==0.2.31",
+    "sqlalchemy==2.0.35",
+    "sqlalchemy-utils==0.41.2",
+]
