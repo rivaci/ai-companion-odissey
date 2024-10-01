@@ -21,7 +21,7 @@ Are you ready to start your own superhero origin story? Let's dive in and begin 
 
 Follow along on Medium as we take you through the step-by-step process of building your AI companion:
 
-Part 1:The Birth of a New Era with AWS Bedrock and Chainlit (coming soon)
+[Part 1:The Birth of a New Era with AWS Bedrock and Chainlit](https://generativeai.pub/the-odyssey-of-your-ai-companion-part-1-the-birth-of-a-new-era-with-aws-bedrock-and-chainlit-4cbb1d181b59)
 
 ## Installation guide
 
@@ -32,7 +32,7 @@ Part 1:The Birth of a New Era with AWS Bedrock and Chainlit (coming soon)
 
     > [NOTE]
     > It's always best practice and safe to create and activate a new python environment for every project.
-    > In our case we use **python 3.12**.
+    > In our case we use **python 3.12.3**.
 
 
     **With uv**
@@ -62,18 +62,27 @@ Part 1:The Birth of a New Era with AWS Bedrock and Chainlit (coming soon)
 
 4. Create AWS Access Keys
 
-    Follow the steps in the tutorial to configure an IAM user and get access keys. Store them in a .env file at the root of your project:
+    Follow the steps in the tutorial to configure an IAM user and get access keys. Store them in a [chatbot] profile in your .aws credentials file:
 
+    **.aws/credentials**
     ```
+    [chatbot]
     AWS_ACCESS_KEY_ID=your_access_key_id
     AWS_SECRET_ACCESS_KEY=your_secret_access_key
-    AWS_REGION=us-east-1
     ```
+   
+    **.aws/config**
+    ```
+    [chatbot]
+    region = us-east-1
+    output = json
+    ```
+
 
 5. Start the project
 
     ```
-    chainlit run chatbot.py -w
+    uv run chainlit run chatbot.py -w
     ```
 
 <p align="center">
