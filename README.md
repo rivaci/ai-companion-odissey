@@ -13,11 +13,13 @@ This repository is organized into multiple subfolders, each corresponding to a s
 
 **- part1-birth**: [The Birth of a New Era with AWS Bedrock and Chainlit](https://github.com/rivaci/ai-companion-odissey/tree/main/part1-birth)
 
+**- part2-observing**: [Streaming and Observing with AWS Bedrock, Langsmith and Chainlit](https://github.com/rivaci/ai-companion-odissey/tree/main/part2-observing)
+
 ## Full Tutorial
 
 Each part is accompanied by a detailed guide available on Medium. Follow along as we take you through the step-by-step process of building your AI companion:
 
-- Part 1:The Birth of a New Era with AWS Bedrock and Chainlit (coming soon)
+- [Part 1:The Birth of a New Era with AWS Bedrock and Chainlit](https://generativeai.pub/the-odyssey-of-your-ai-companion-part-1-the-birth-of-a-new-era-with-aws-bedrock-and-chainlit-4cbb1d181b59)
 
 ## Installation and Setup
 
