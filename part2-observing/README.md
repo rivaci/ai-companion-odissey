@@ -1,4 +1,4 @@
-# The Odyssey of Your AI Companion - Part 2: Observing and Strengthening Memory with Langsmith, LangGraph, Chainlit, and AWS Aurora
+# The Odyssey of Your AI Companion - Part 2: Streaming and Observing with AWS Bedrock, Langsmith and Chainlit
 A Step-by-Step Guide to Observing, Enhancing, and Empowering Your AI Companion
 
 <p align="center">
